@@ -1,0 +1,18 @@
+﻿Model 2: OLS, using observations 1-1881
+Dependent variable: AQI
+
+             coefficient   std. error   t-ratio    p-value 
+  ---------------------------------------------------------
+  const       52.0700      2.82605      18.43     8.27e-070 ***
+  PM25         0.558533    0.0229806    24.30     1.17e-113 ***
+  PM10         0.424537    0.0166966    25.43     8.75e-123 ***
+  NO2          0.467535    0.0680228     6.873    8.52e-012 ***
+  CO           6.51272     0.392610     16.59     9.03e-058 ***
+  O3           0.225419    0.0408635     5.516    3.94e-08  ***
+
+Mean dependent var   268.9160   S.D. dependent var   115.4417
+Sum squared resid     3232081   S.E. of regression   41.51839
+R-squared            0.870997   Adjusted R-squared   0.870653
+F(5, 1875)           2531.915   P-value(F)           0.000000
+Log-likelihood      −9674.881   Akaike criterion     19361.76
+Schwarz criterion    19395.00   Hannan-Quinn         19374.00
